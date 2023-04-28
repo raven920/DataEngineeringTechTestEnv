@@ -11,10 +11,10 @@ for filename in os.listdir(dataset_dir_csv):
     print(f"Loading {file_path} into table {table_name}")
     spark.read.option("header",True).csv(file_path).write.mode("overwrite").saveAsTable(table_name)
     
-dataset_dir_json = "datasets/json"
+#dataset_dir_json = "datasets/json"
 
-for filename in os.listdir(dataset_dir_json):
-    file_path = "/".join([dataset_dir_json, filename])
-    table_name = filename[0:filename.rfind(".")]
-    print(f"Loading {file_path} into table {table_name}")
-    spark.read.json(file_path).write.mode("overwrite").saveAsTable(table_name)
+#for filename in os.listdir(dataset_dir_json):
+#    file_path = "/".join([dataset_dir_json, filename])
+#    table_name = filename[0:filename.rfind(".")]
+#    print(f"Loading {file_path} into table {table_name}")
+#    spark.read.json(file_path).write.mode("overwrite").saveAsTable(table_name)

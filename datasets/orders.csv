@@ -1,0 +1,11 @@
+order_id,order_date,fulfillment_type
+1,2022-01-01,Online
+2,2022-01-02,Physical
+3,2022-01-03,Online
+4,2022-01-04,Online
+5,2022-01-05,Physical
+6,2022-01-06,Online
+7,2022-01-07,Physical
+8,2022-01-08,Online
+9,2022-01-09,Online
+10,2022-01-10,Physical

@@ -12,6 +12,6 @@ python3 -m ensurepip --upgrade
 pip3 install jupyter
 pip3 install spylon-kernel 
 python3 -m spylon_kernel install
-pip install --no-deps sparksql-magic
+pip3 install --no-deps sparksql-magic
 
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080

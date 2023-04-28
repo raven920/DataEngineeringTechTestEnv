@@ -201,4 +201,6 @@ terraform.rc
 linux-key-pair.pem
 linux-key-pair.ppk
 
+puttygen.exe
+
 # End of https://www.toptal.com/developers/gitignore/api/terraform
